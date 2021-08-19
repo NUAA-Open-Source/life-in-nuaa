@@ -2,17 +2,17 @@
   <v-app style="background: rgba(0,0,0,0);">
     <div id="web_bg" :style="'background-image: url(' + imgUrl + ');'"></div>
     <v-app-bar app color="rgba(0,0,0,.2)" dark flat fixed>
-      <v-toolbar-title>Life In NJU</v-toolbar-title>
+      <v-toolbar-title>Life In NUAA</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-icon
-        @click="open('https://github.com/idealclover/Life-in-NJU')"
+        @click="open('https://github.com/NUAA-Open-Source/life-in-nuaa')"
         class="mx-3"
       >
         mdi-github
       </v-icon>
       <v-icon
         class="shareLink"
-        data-clipboard-text="https://nju.today"
+        data-clipboard-text="https://nuaa.today"
         @click="share"
       >
         mdi-open-in-new
@@ -130,11 +130,11 @@
       >
         ©{{ new Date().getFullYear() }}
         <a
-          href="https://idealclover.top"
+          href="https://www.a2os.club/"
           class="white--text"
           target="_blank"
           rel="noopener noreferrer nofollow"
-          >idealclover</a
+          >NUAA Open Source</a
         >
       </v-col>
       <v-snackbar v-model="snackbar">
@@ -216,10 +216,10 @@ export default {
     share: function() {
       nativeShare.setShareData({
         icon: "https://nju.today/img/icons/android-chrome-192x192.png",
-        link: "https://nju.today",
-        title: "南哪指南",
-        desc: "南哪人的专属导航页！",
-        from: "@idealclover"
+        link: "https://nuaa.today",
+        title: "南航指南",
+        desc: "南航人的专属导航页！",
+        from: "@nuaa-opensource"
       });
 
       // 唤起浏览器原生分享组件(如果在微信中不会唤起，此时call方法只会设置文案。类似setShareData)
