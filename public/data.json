@@ -6,6 +6,11 @@
                 "name": "统一身份认证",
                 "link": "https://login.nuaa.edu.cn/",
                 "description": "初始账户学工号，初始密码身份证后6位"
+            },
+            {
+                "name": "缴费网站",
+                "link": "http://jiaofei.nuaa.edu.cn",
+                "description": "交学费和住宿费的网站"
             }
         ]
     },
