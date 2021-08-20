@@ -156,9 +156,11 @@ import NativeShare from "nativeshare";
 import Clipboard from "clipboard";
 
 // TODO: Fix images
-const dataUrl = "https://image.idealclover.cn/projects/Life-in-NJU/";
-const imgUrl =
-  dataUrl + "background/bg" + Math.floor(Math.random() * 10) + ".jpg";
+// const dataUrl = "https://image.idealclover.cn/projects/Life-in-NJU/";
+// const imgUrl =
+//   dataUrl + "background/bg" + Math.floor(Math.random() * 10) + ".jpg";
+const dataUrl = "https://pan.qrzbing.cn/nuaa/";
+const imgUrl = dataUrl + "bg0" + ".jpg?raw";
 
 new Clipboard(".shareLink");
 Vue.use(Vuex);
