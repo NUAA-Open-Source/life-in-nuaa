@@ -13,7 +13,17 @@
         "title": "校园生活",
         "items": [
             {
-                "name": "研究生学工通讯录",
+                "name": "南航学工",
+                "link": "https://xg.nuaa.edu.cn",
+                "description": "南航学工系统，涉及本科生生活的方方面面"
+            },
+            {
+                "name": "南航通讯录",
+                "link": "https://backend.nuaaweyes.com/phonebook/index_mod_1.html",
+                "description": "校内各部处联系电话"
+            },
+            {
+                "name": "研究生院学工通讯录",
                 "link": "http://www.graduate.nuaa.edu.cn/2014/0507/c2135a54120/page.htm",
                 "description": "实在不行问问辅导员"
             },
@@ -40,7 +50,7 @@
             {
                 "name": "教务系统",
                 "link": "http://aao-eas.nuaa.edu.cn/eams/login.action",
-                "description": "新版教育系统"
+                "description": "新版教务系统"
             },
             {
                 "name": "研究生学籍与教学管理系统",
@@ -51,6 +61,11 @@
                 "name": "图书馆服务",
                 "link": "http://lib.nuaa.edu.cn/",
                 "description": "图书馆热门服务"
+            },
+            {
+                "name": "国际教育学院",
+                "link": "http://cie.nuaa.edu.cn/10863/list.htm",
+                "description": "海外交流交换相关信息发布" 
             },
             {
                 "name": "高性能计算中心",
@@ -68,9 +83,19 @@
                 "description": "i南航，官方出品的 APP，集成各类常用功能"
             },
             {
+                "name": "智慧门户",
+                "link": "http://i.nuaa.edu.cn/web/",
+                "description": "南航一站式信息服务中心，你想要的这里都有"
+            },
+            {
                 "name": "南航邮箱",
                 "link": "https://mail.nuaa.edu.cn/",
                 "description": "全日制学生人手一个，可以用来薅免费教育版软件、教育优惠"
+            },
+            {
+                "name": "南航云盘",
+                "link": "https://pan.nuaa.edu.cn/",
+                "description": "学校提供的文件存储服务，校内传输速度不错，拥有大量软件资源（py管理员可以获取权限）"
             },
             {
                 "name": "正版软件",
