@@ -3,9 +3,9 @@
         "title": "萌新必读",
         "items": [
             {
-                "name": "统一身份认证",
-                "link": "https://login.nuaa.edu.cn/",
-                "description": "初始账户学工号，初始密码身份证后6位"
+                "name": "南航学工",
+                "link": "https://xg.nuaa.edu.cn",
+                "description": "南航学工系统，涉及校园生活的方方面面"
             },
             {
                 "name": "缴费网站",
@@ -18,9 +18,14 @@
         "title": "校园生活",
         "items": [
             {
-                "name": "南航学工",
-                "link": "https://xg.nuaa.edu.cn",
-                "description": "南航学工系统，涉及本科生生活的方方面面"
+                "name": "师生服务大厅",
+                "link": "http://service.nuaa.edu.cn/",
+                "description": "各种服务事项"
+            },
+            {
+                "name": "校园网址导航",
+                "link": "https://abc.nuaa.edu.cn/",
+                "description": "不知道需要的部门链接在哪里时点这里！"
             },
             {
                 "name": "南航通讯录",
@@ -33,19 +38,14 @@
                 "description": "实在不行问问辅导员"
             },
             {
-                "name": "A2OS BBS",
-                "link": "https://bbs.a2os.club/",
-                "description": "纸飞机之后尝试新建的论坛，时代的眼泪"
-            },
-            {
-                "name": "师生服务大厅",
-                "link": "http://service.nuaa.edu.cn/",
-                "description": "各种服务事项"
-            },
-            {
                 "name": "户籍管理",
                 "link": "http://bwc.nuaa.edu.cn/6072/list.htm",
                 "description": "管理户口迁移等等事务"
+            },
+            {
+                "name": "A2OS BBS",
+                "link": "https://bbs.a2os.club/",
+                "description": "纸飞机之后尝试新建的论坛，时代的眼泪"
             }
         ]
     },
@@ -68,9 +68,9 @@
                 "description": "图书馆热门服务"
             },
             {
-                "name": "国际教育学院",
+                "name": "交换生项目",
                 "link": "http://cie.nuaa.edu.cn/10863/list.htm",
-                "description": "海外交流交换相关信息发布" 
+                "description": "海外交流交换相关信息发布"
             },
             {
                 "name": "高性能计算中心",
@@ -83,9 +83,9 @@
         "title": "信息服务",
         "items": [
             {
-                "name": "南航APP",
+                "name": "i南航",
                 "link": "https://app.nuaa.edu.cn/",
-                "description": "i南航，官方出品的 APP，集成各类常用功能"
+                "description": "官方出品的 APP，集成各类常用功能"
             },
             {
                 "name": "智慧门户",
@@ -111,6 +111,21 @@
                 "name": "Eduroam",
                 "link": "https://xxhc.nuaa.edu.cn/_t707/2020/1202/c205a223666/page.htm",
                 "description": "全球教育科研机构无线网络漫游"
+            },
+            {
+                "name": "工作招聘",
+                "link": "http://nuaa.91job.org.cn/",
+                "description": "就业招聘会及宣讲会信息"
+            }
+        ]
+    },
+    {
+        "title": "趣味南航",
+        "items": [
+            {
+                "name": "采购与招投标公告",
+                "link": "https://cwc.nuaa.edu.cn/list11699319.htm",
+                "description": "来看看学校最近又买了啥~"
             }
         ]
     },
@@ -120,7 +135,7 @@
             {
                 "name": "Asuri-wiki",
                 "link": "https://ctf.nuaa.today/",
-                "description": "NUAA 信息安全战队 Asuri 对 CTF 比赛的介绍"
+                "description": "对 CTF 比赛的介绍"
             },
             {
                 "name": "NUAA AnyKnew",
@@ -131,6 +146,31 @@
                 "name": "南京航空航天大学(非官方)学位论文 LaTeX 模板",
                 "link": "https://github.com/nuaatug/nuaathesis",
                 "description": "学位论文的Latex模板"
+            }
+        ]
+    },
+    {
+        "title": "技术组织",
+        "items": [
+            {
+                "name": "程序设计竞赛交流群",
+                "link": "https://jq.qq.com/?_wv=1027&k=Fbo2r5iE",
+                "description": "希望参加算法竞赛的同学看这里~"
+            },
+            {
+                "name": "信息安全战队",
+                "link": "https://www.asuri.org/",
+                "description": "南京航空航天大学信息安全 Asuri 战队，希望参加 CTF 的同学看过来~"
+            },
+            {
+                "name": "微软学生俱乐部",
+                "link": "https://github.com/nuaamsc",
+                "description": "南京航空航天大学微软学生俱乐部"
+            },
+            {
+                "name": "NUAA Open Source",
+                "link": "https://a2os.club/",
+                "description": "南京航空航天大学开源技术小组"
             }
         ]
     },
