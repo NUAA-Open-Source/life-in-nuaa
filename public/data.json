@@ -46,6 +46,11 @@
                 "name": "A2OS BBS",
                 "link": "https://bbs.a2os.club/",
                 "description": "纸飞机之后尝试新建的论坛，时代的眼泪"
+            },
+            {
+                "name": "健康打卡",
+                "link": "https://m.nuaa.edu.cn/ncov/wap/default/index",
+                "description": "每日健康打卡web页面"
             }
         ]
     },
@@ -53,9 +58,19 @@
         "title": "学习科研",
         "items": [
             {
-                "name": "教务系统",
+                "name": "教务处",
+                "link": "http://aao.nuaa.edu.cn/",
+                "description": "各种教务通知公告在这里发布~"
+            },
+            {
+                "name": "研究生院",
+                "link": "http://www.graduate.nuaa.edu.cn/",
+                "description": "研究生的各种通知公告、学术信息等在这里发布~"
+            },
+            {
+                "name": "本科生教务系统",
                 "link": "http://aao-eas.nuaa.edu.cn/eams/login.action",
-                "description": "新版教务系统"
+                "description": "本科生新版教务系统"
             },
             {
                 "name": "研究生学籍与教学管理系统",
@@ -66,6 +81,11 @@
                 "name": "图书馆服务",
                 "link": "http://lib.nuaa.edu.cn/",
                 "description": "图书馆热门服务"
+            },
+            {
+                "name": "CARSI资源共享",
+                "link": "http://authserver.nuaa.edu.cn/authserver/login?service=https%3A%2F%2Fidp.nuaa.edu.cn%2Fidp%2FAuthn%2FExternal%3Fconversation%3De2s1&entityId=https%3A%2F%2Fds.carsi.edu.cn%2Fshibboleth-sp%2Fcarsifed",
+                "description": "教育网联邦认证与资源共享基础设施，可以在校外使用图书馆电子资源"
             },
             {
                 "name": "海外学习交换项目",
