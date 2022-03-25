@@ -159,8 +159,8 @@ import Clipboard from "clipboard";
 // const dataUrl = "https://image.idealclover.cn/projects/Life-in-NJU/";
 // const imgUrl =
 //   dataUrl + "background/bg" + Math.floor(Math.random() * 10) + ".jpg";
-const dataUrl = "https://pan.qrzbing.cn/projects/life-in-nuaa/";
-const imgUrl = dataUrl + "background/bg0" + ".jpg?raw";
+const dataUrl = "https://pan.qrzbing.cn/api/raw/?path=/projects/life-in-nuaa/";
+const imgUrl = dataUrl + "background/bg0" + ".jpg";
 
 new Clipboard(".shareLink");
 Vue.use(Vuex);
@@ -195,17 +195,17 @@ export default {
       {
         name: "baidu",
         url: "https://www.baidu.com/s?wd=",
-        src: dataUrl + "search/baidu-white.png?raw"
+        src: dataUrl + "search/baidu-white.png"
       },
       {
         name: "bing",
         url: "https://cn.bing.com/search?q=",
-        src: dataUrl + "search/bing-white.png?raw"
+        src: dataUrl + "search/bing-white.png"
       },
       {
         name: "google",
         url: "https://www.google.com/search?q=",
-        src: dataUrl + "search/google-white.png?raw"
+        src: dataUrl + "search/google-white.png"
       }
     ]
   }),
