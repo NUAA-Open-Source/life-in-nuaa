@@ -96,6 +96,11 @@
                 "name": "高性能计算中心",
                 "link": "http://hpc.nuaa.edu.cn/",
                 "description": "电脑不够算，快找HPC"
+            },
+            {
+                "name": "飞天云课堂",
+                "link": "http://ft.nuaa.edu.cn/",
+                "description": "期待上线更多在线课程"
             }
         ]
     },
